@@ -1,0 +1,266 @@
+. {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  background-color: rgba(182, 178, 178, 0.1);
+  border-radius: 0px;
+  border:black 1px;
+  width: 1000px;
+  padding-left: 40px;
+  padding-top: 10px;
+  font-size: 18px;
+  text-align: left;
+  font-family: sans-serif;
+}
+form {
+  padding: 10px;
+  
+}
+.Status {
+  position: relative;
+  left: 87px;
+  top: 0px;
+  line-height: 120px;
+  padding: 3px 70px;
+}
+.Name {
+  position: relative;
+  left: 88px;
+  top: 0px;
+  line-height: 18px;
+}
+.Description {
+  position: relative;
+  left: 200px;
+  top: -140px;
+}
+
+#note {
+  width: 170px;
+  padding: 5px;
+  border: 3px;
+  margin-left: -5px;
+  background-color: rgba(182, 178, 178, 0.1);
+}
+#Date {
+  position: relative;
+  left: 96px;
+  top: -150px;
+  line-height: 18px;
+}
+.ActDate {
+  position: relative;
+  bottom: 150px;
+}
+
+.checkbox {
+  position: relative;
+  bottom: 130px;
+}
+#Learners {
+  position: relative;
+  left: 160px;
+  top: -130px;
+}
+
+.All {
+  position: relative;
+  bottom: 130px;
+  left: 128px;
+}
+.Select {
+  position: relative;
+  bottom: 90px;
+  left: 70px;
+}
+#Selected {
+  position: relative;
+  bottom: 90px;
+  left: 75px;
+}
+.Share {
+  position: relative;
+  bottom: 90px;
+  left: 0px;
+}
+#Share {
+  position: relative;
+  bottom: 90px;
+  left: 50px;
+  line-height: 120px;
+  padding: 3px 70px;
+}
+.photos {
+  position: relative;
+  bottom: 80px;
+  left: 0px;
+}
+#Tip {
+  position: relative;
+  bottom: 70px;
+  left: 0px;
+  width: 170px;
+  padding: 5px;
+  border: 3px;
+  margin-left: -5px;
+  background-color: rgba(182, 178, 178, 0.1);
+}
+#btn-1 {
+  position: relative;
+  bottom: 95px;
+  left: 300px;
+  background-color: rgb(11, 141, 228);
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+#btn-2 {
+  position: relative;
+  bottom: 95px;
+  left: 350px;
+  background-color: rgb(11, 141, 228);
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+#btn-3 {
+  position: relative;
+  bottom: 95px;
+  left: 380px;
+  background-color: rgb(11, 141, 228);
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.text {
+  position: relative;
+  bottom: 60px;
+  left: 85px;
+  font-size: 12px;
+}
+#Download-btn {
+  position: relative;
+  left: 50px;
+}
+.Activity-notes {
+  position: relative;
+  bottom: 140px;
+  left: 0px;
+}
+#Activity-notes {
+  position: relative;
+  bottom: 0px;
+  left: 123px;
+}
+#text-1 {
+  position: relative;
+  bottom: 0px;
+  left: 123px;
+  border: none;
+  line-height: 25px;
+  width: 265px;
+}
+
+#text-2 {
+  position: relative;
+  bottom: 0px;
+  left: 123px;
+  border: none;
+  line-height: 25px;
+  width: 265px;
+}
+
+#text-3 {
+  position: relative;
+  bottom: 0px;
+  left: 123px;
+  border: none;
+  line-height: 25px;
+  width: 265px;
+}
+
+#url-1 {
+  position: relative;
+  bottom: 0px;
+  left: 130px;
+  border: none;
+  line-height: 25px;
+  width: 265px;
+  width: 265px;
+}
+
+#url-2 {
+  position: relative;
+  bottom: 0px;
+  left: 130px;
+  border: none;
+  line-height: 25px;
+  width: 265px;
+}
+
+#url-3 {
+  position: relative;
+  bottom: 0px;
+  left: 130px;
+  border: none;
+  line-height: 25px;
+  width: 265px;
+}
+#pdf {
+  position: relative;
+  bottom: 160px;
+  left: 238px;
+  border: none;
+  line-height: 35px;
+  width: 265px;
+}
+
+#upload-1 {
+  position: relative;
+  bottom: 325px;
+  left: 520px;
+  border: solid white 1px;
+  background-color: #fff;
+  line-height: 35px;
+  width: 265px;
+}
+.Activity-pdf {
+  position: relative;
+  bottom: -18px;
+  line-height: 43px;
+  width: auto;
+}
+.Tags {
+  position: relative;
+  bottom: 300px;
+  left: 0px;
+}
+#Tags {
+  position: relative;
+  bottom: 300px;
+  left: 200px;
+  border: solid gray 1px;
+}
+#Submit {
+  position: relative;
+  bottom: 200px;
+  left: -580px;
+  background-color: rgb(11, 141, 228);
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+}
