@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Document</title>
+    
+  </head>
+  <body>
+    <h2>Create New Activity</h2>
+    <form>
+      <div class="main">
+        <p>
+          <label>Activity Status</label>
+          <select class="Status" name="Activities">
+            <option value="Select">--Select--</option>
+            <option value="First">First</option>
+            <option value="Second">Second</option>
+          </select>
+        </p>
+        <p>
+          <label>Activity Name</label>
+          <textarea
+            class="Name"
+            name="ActivityName"
+            id="ActivityName"
+            cols="70"
+            rows="1"
+          ></textarea>
+        </p>
+        <p>
+          <label>Activity Description</label>
+          <div id="note">
+              Impotant:consectetur adipiscing elit. Proin vehicula fringilla dui sed congue.
+          </div>
+          
+          <textarea
+            class="Description"
+            name="Activity Description"
+            id="ActivityDescription"
+            cols="70"
+            rows="10"
+          ></textarea>
+        </p>
+        <p>
+            <label class="ActDate">Activity Date</label>
+            <input type="date" name="ActivityDate" id="Date">
+        </p>
+        <p>
+            <label class="checkbox">Learners</label>
+            <label class="All">All</label>
+            <input type="checkbox" name="Learners" id="Learners">
+            <label class="Select">Selected</label>
+            <textarea name="selectedLearners" id="Selected" cols="62" rows="1"></textarea>
+            <p>
+              <label class="Share">Shared with Parent</label>
+              <select name="Parent" id="Share">
+                <option value="S">--Select--</option>
+                <option value="Y">Yes</option>
+                <option value="N">No</option>
+              </select>
+            </p>
+            <label class="photos">Activity Photos/Videos</label>
+            <div id="Tip">
+              Tip:consectetur adipiscing elit. Proin vehicula fringilla 
+          </div>
+          <input type="file" id="upload1"hidden>
+          <label for="upload1" id="btn-1">Upload</label>
+          <input type="file"  id="upload2"hidden>
+          <label for="upload2" id="btn-2">Upload</label>
+          <input type="file"  id="upload3"hidden>
+          <label for="upload3" id="btn-3">Upload</label>
+          <label class="text">(supported format:JPG,MP4,MOV-max 25mb)</label>
+          <p><label class="Download-btn">Show Download Button</label>
+          
+            <input type="checkbox" name="download" id="Download-btn">
+          </p>
+          <p>
+            <label class="Activity-notes">Activity Notes</label>
+            <textarea name="notes" id="Activity-notes" cols="70" rows="10"></textarea>
+          </p>
+          <p>
+            <label class="Activity-link-1">Activity Link 1</label>
+          <input type="text" name="text" id="text-1" placeholder="Link Label">
+          <input type="url" name="url" id="url-1" placeholder="https://www.example.com">
+          </p>
+          <p>
+            <label class="Activity-link-2">Activity Link 2</label>
+            <input type="text" name="text" id="text-2" placeholder="Link Label">
+            <input type="url" name="url" id="url-2" placeholder="https://www.example.com">
+          </p>
+          <p>
+            <label class="Activity-link-3">Activity Link 3</label>
+            <input type="text" name="text" id="text-3" placeholder="Link Label">
+            <input type="url" name="url" id="url-3" placeholder="https://www.example.com">
+           </p>
+           <p>
+             <label class="Activity-pdf">Activity PDF 1</label>
+           </p>
+           <p>
+            <label class="Activity-pdf">Activity PDF 2</label>
+          </p>
+          <p>
+            <label class="Activity-pdf">Activity PDF 3</label>
+          </p>
+          <p>
+            <input type="text" name="pdf1" id ="pdf" placeholder="Label for PDF 1"> </p>
+          <p>              
+            <input type="text" name="pdf2" id="pdf" placeholder="Label for PDF 2"></p>
+            <p><input type="text" name="pdf3" id="pdf" placeholder="Label for PDF 3"></p>
+            <p>
+              <input type="file" name="file1" id="upload-1">
+            </p>
+            <p>
+              <input type="file" name="file1" id="upload-1">
+            </p>
+            <p>
+              <input type="file" name="file1" id="upload-1">
+            </p>
+            
+              <label class="Tags">Tags</label>
+            
+          
+              <textarea name="ta" id="Tags" cols="68" rows="1"></textarea>
+
+              <input type="submit" id="Submit"value="SAVE">
+            
+          
+          
+          
+
+    </form>
+  </body>
+</html>
